@@ -1,0 +1,34 @@
+@media (max-width: 800px) {
+  .primeira-tela {
+    background-image: url(../assets/mob.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    background-position: top center;
+  }
+  .primeira-tela .primeira-tela-container {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 0;
+    height: 80%;
+  }
+  .primeira-tela .primeira-tela-container img {
+    position: static;
+    width: 450px;
+  }
+  .primeira-tela .primeira-tela-container .primeira-tela-textos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0em;
+    text-align: center;
+    gap: 2em;
+    width: 90%;
+  }
+  .primeira-tela .primeira-tela-container .primeira-tela-textos p {
+    font-size: 1.7rem;
+  }
+  .primeira-tela .primeira-tela-container .primeira-tela-textos small, .primeira-tela .primeira-tela-container .primeira-tela-textos p {
+    line-height: 1.5em;
+  }
+}/*# sourceMappingURL=responsiveness.css.map */

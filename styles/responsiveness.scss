@@ -1,0 +1,40 @@
+@import "./mixings";
+
+@media  (max-width: 800px) {
+    .primeira-tela {
+        background-image: url(../assets/mob.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 10em;
+        background-position: top center;
+
+        .primeira-tela-container {
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            gap: 0;
+            height: 80%;
+
+            img {
+                position: static;
+                width: 450px;
+            }
+
+            .primeira-tela-textos {
+                @include direction (column);
+                margin-top: 0em;
+                text-align: center;
+                gap: 2em;
+                width: 90%;
+                
+                p {
+                    font-size: 1.7rem;
+                }
+    
+                small, p {
+                    line-height: 1.5em;
+                }
+            }
+        }
+    }
+}
