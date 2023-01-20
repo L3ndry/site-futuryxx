@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .primeira-tela {
     background-image: url(../assets/mob.jpg);
     background-size: contain;
