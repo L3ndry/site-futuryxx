@@ -901,6 +901,49 @@ body {
 		}
 	}
 
+    .setima-tela {
+		height: 50vh;
+		background-image: url(../assets/setimaTela.png);
+		background-size: cover;
+
+		.setima-tela-container {
+			@include direction(column);
+			height: 100%;
+			align-items: center;
+			justify-content: center;
+			gap: 10em;
+			-webkit-backdrop-filter: brightness();
+			backdrop-filter: brightness(40%);
+
+			.setima-tela-garantia {
+				@include direction(column);
+				width: 100%;
+				justify-content: center;
+				align-items: center;
+				gap: 3em;
+
+				div {
+					@include direction(column);
+					width: 65%;
+					gap: 2em;
+					text-align: center;
+
+					p {
+						font-size: 1.6rem;
+					}
+
+					small {
+						line-height: 1.3rem;
+					}
+				}
+			}
+
+			.premium-icon {
+				width: 60%;
+			}
+		}
+	}
+
     .oitava-tela {
         @include direction (column);
         text-align: center;
