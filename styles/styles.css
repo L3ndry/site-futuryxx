@@ -47,12 +47,12 @@ a {
 .primeira-tela .primeira-tela-container .primeira-tela-textos {
   display: flex;
   flex-direction: column;
-  margin-top: 2em;
+  margin-top: 3em;
   gap: 2em;
   width: 40%;
 }
 .primeira-tela .primeira-tela-container .primeira-tela-textos p {
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 .primeira-tela .primeira-tela-container .primeira-tela-textos small, .primeira-tela .primeira-tela-container .primeira-tela-textos p {
   line-height: 1.5em;

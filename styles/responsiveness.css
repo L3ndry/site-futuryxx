@@ -853,10 +853,11 @@ body {
     text-align: center;
   }
   .setima-tela .setima-tela-container .setima-tela-garantia div p {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
   .setima-tela .setima-tela-container .setima-tela-garantia div small {
-    line-height: 1.3rem;
+    line-height: 1rem;
+    font-size: 0.6rem;
   }
   .setima-tela .setima-tela-container .premium-icon {
     width: 60%;

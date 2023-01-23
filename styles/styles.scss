@@ -54,12 +54,12 @@ a {
         
         .primeira-tela-textos {
             @include direction (column);
-            margin-top: 2em;
+            margin-top: 3em;
             gap: 2em;
             width: 40%;
             
             p {
-                font-size: 1.7rem;
+                font-size: 1.4rem;
             }
 
             small, p {
