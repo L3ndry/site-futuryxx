@@ -31,7 +31,7 @@ a {
 .primeira-tela .primeira-tela-container {
   display: flex;
   flex-direction: column;
-  padding-top: 5em;
+  padding-top: 10em;
   gap: 2em;
   position: relative;
   justify-content: center;
@@ -90,14 +90,15 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100%;
   gap: 3em;
-  padding-top: 7em;
 }
 .terceira-tela .terceira-tela-container .futuryxx-vantagens {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 70%;
+  height: 70%;
   gap: 2em;
 }
 .terceira-tela .terceira-tela-container .futuryxx-vantagens .linha1, .terceira-tela .terceira-tela-container .futuryxx-vantagens .linha2 {
@@ -106,6 +107,7 @@ a {
   gap: 1em;
   justify-content: center;
   width: 100%;
+  height: 50%;
 }
 .terceira-tela .terceira-tela-container .futuryxx-vantagens .linha1 .vantagem, .terceira-tela .terceira-tela-container .futuryxx-vantagens .linha2 .vantagem {
   display: flex;
@@ -115,7 +117,8 @@ a {
   justify-content: center;
   text-align: center;
   padding: 2em;
-  width: 310px;
+  width: 100%;
+  font-size: 0.8rem;
 }
 .terceira-tela .terceira-tela-container .futuryxx-vantagens .linha1 .vantagem .vantagem-icon, .terceira-tela .terceira-tela-container .futuryxx-vantagens .linha2 .vantagem .vantagem-icon {
   display: flex;
@@ -140,6 +143,7 @@ a {
   width: 40%;
   height: 100%;
   justify-content: center;
+  justify-content: center;
   gap: 2em;
   margin-left: 7em;
 }
@@ -150,7 +154,8 @@ a {
   line-height: 1.3rem;
 }
 .quarta-tela .quarta-tela-container a {
-  width: 60%;
+  width: 80%;
+  white-space: nowrap;
 }
 
 .quinta-tela {
@@ -212,7 +217,7 @@ a {
   justify-content: space-around;
   align-items: center;
   width: 370px;
-  height: 70%;
+  height: 100%;
   transition-duration: 0.3s;
 }
 .sexta-tela .sexta-tela-container .futuryxx-planos .plano p {
@@ -243,12 +248,11 @@ a {
 }
 .sexta-tela .sexta-tela-container .futuryxx-planos .plano:hover {
   width: 380px;
-  font-size: 1.1rem;
   box-shadow: 0 0 20px 2px #8133ff;
 }
 
 .setima-tela {
-  height: 95vh;
+  height: 90vh;
   background-image: url(../assets/setimaTela.png);
   background-size: cover;
 }
@@ -305,7 +309,7 @@ a {
   box-shadow: 0 0 10px #1acc29;
 }
 .oitava-tela a:hover {
-  font-size: 1.1rem;
+  background-color: #16ad23;
 }
 .oitava-tela a img {
   width: 20px;
@@ -322,7 +326,7 @@ footer {
   text-align: center;
 }
 footer p {
-  width: 70%;
+  width: 90%;
   font-size: 0.7rem;
   line-height: 1.1rem;
 }
@@ -353,6 +357,5 @@ footer p {
 }
 
 .hover-destaque:hover {
-  font-size: 1.1rem;
   background-color: #4c00c5;
 }/*# sourceMappingURL=styles.css.map */
