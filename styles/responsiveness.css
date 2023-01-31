@@ -780,7 +780,7 @@ body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 300px;
     padding: 1em;
     transition-duration: 0.3s;
   }
@@ -892,5 +892,108 @@ body {
   }
   .oitava-tela a img {
     width: 15px;
+  }
+}
+@media (max-height: 505px) {
+  .setima-tela {
+    height: 50vh;
+    background-image: url(../assets/setimaTela.png);
+    background-size: cover;
+  }
+  .setima-tela .setima-tela-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    margin-top: 5em;
+    justify-content: center;
+    gap: 10em;
+    -webkit-backdrop-filter: brightness();
+    backdrop-filter: brightness(40%);
+  }
+  .setima-tela .setima-tela-container .setima-tela-garantia {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+  }
+  .setima-tela .setima-tela-container .setima-tela-garantia div {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 2em;
+    text-align: center;
+  }
+  .setima-tela .setima-tela-container .setima-tela-garantia div p {
+    font-size: 1rem;
+  }
+  .setima-tela .setima-tela-container .setima-tela-garantia div small {
+    line-height: 1rem;
+    font-size: 0.6rem;
+  }
+  .setima-tela .setima-tela-container .premium-icon {
+    width: 60%;
+  }
+  .terceira-tela {
+    height: 160vh;
+  }
+  .terceira-tela .terceira-tela-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    gap: 2em;
+    padding-top: 0em;
+  }
+  .terceira-tela .terceira-tela-container h1 {
+    font-size: 1.2rem;
+  }
+  .terceira-tela .terceira-tela-container a {
+    margin-top: 2em;
+  }
+  .terceira-tela .terceira-tela-container .futuryxx-vantagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 2em;
+  }
+  .terceira-tela .terceira-tela-container .futuryxx-vantagens .linha1,
+.terceira-tela .terceira-tela-container .futuryxx-vantagens .linha2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .terceira-tela .terceira-tela-container .futuryxx-vantagens .linha1 .vantagem,
+.terceira-tela .terceira-tela-container .futuryxx-vantagens .linha2 .vantagem {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2em;
+    width: 90%;
+    height: 100%;
+    font-size: 0.6rem;
+  }
+  .terceira-tela .terceira-tela-container .futuryxx-vantagens .linha1 .vantagem .vantagem-icon,
+.terceira-tela .terceira-tela-container .futuryxx-vantagens .linha2 .vantagem .vantagem-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=responsiveness.css.map */
